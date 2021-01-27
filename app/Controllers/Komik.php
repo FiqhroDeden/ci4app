@@ -119,7 +119,7 @@ class Komik extends BaseController
             'sampul' => $namaSampul
         ]);
 
-        session()->setFlashdata('pesan', 'Data berhasil ditambahkan.');
+        session()->setFlashdata('pesan', 'Data Komik berhasil ditambahkan.');
         return redirect()->to('/komik');
     }
 
